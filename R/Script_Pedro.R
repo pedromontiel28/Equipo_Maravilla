@@ -11,7 +11,7 @@ ggplot(mtcars,aes(x=mpg)) +
 
 data("mtcars")
 
- pdf("mis_imagenes/facet_plot.pdf")
+ png("mis_imagenes/facet_plot.png")
  
  ggplot(mtcars,aes(x=mpg)) + 
    geom_histogram(binwidth=5)
